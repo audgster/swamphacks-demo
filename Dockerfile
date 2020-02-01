@@ -9,7 +9,6 @@ COPY package.json /usr/src/
 RUN npm install
 
 COPY index.js /usr/src/index.js
-COPY mongo/ /usr/src/
 
 ENV NODE_ENV=production
 
